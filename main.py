@@ -11,7 +11,7 @@ import re
 import sys
 import json
 from html import escape
-from datetime import datetime
+from datetime import datetime, timedelta
 from dataclasses import dataclass, field
 from urllib.parse import urlparse
 import requests
@@ -25,6 +25,7 @@ CONFIG = {
         "https://in.bookmyshow.com/movies/chennai/dhurandhar-the-revenge/buytickets/ET00478890"
     ),
     "dates": os.getenv("BMS_DATES", ""),          # comma-separated YYYYMMDD, empty = from URL
+    "days": os.getenv("BMS_DAYS", ""),            # rolling window: today + next N-1 days
     "theatre": os.getenv("BMS_THEATRE", ""),       # substring filter, empty = all
     "time_period": os.getenv("BMS_TIME", ""),      # e.g. "evening,night", empty = all
 }
@@ -191,12 +192,19 @@ def parse_movie_info(data):
                     for c in row.get("components", []):
                         if "•" in c.get("text", ""):
                             info["language"] = c["text"].strip()
-    bs = data.get("data", {}).get("bottomSheetData", {})
-    for w in bs.get("format-selector", {}).get("widgets", []):
-        if w.get("type") == "vertical-text-list":
-            for d in w.get("data", []):
-                if d.get("styleId") == "bottomsheet-subtitle":
-                    info["name"] = d.get("text", info["name"])
+    name = (
+        data.get("metadata", {}).get("analytics", {}).get("title", "")
+    ).strip()
+    if name:
+        info["name"] = name
+
+    if info["name"] == "Unknown Movie":
+        bs = data.get("data", {}).get("bottomSheetData", {})
+        for w in bs.get("format-selector", {}).get("widgets", []):
+            if w.get("type") == "vertical-text-list":
+                for d in w.get("data", []):
+                    if d.get("styleId") == "bottomsheet-subtitle":
+                        info["name"] = d.get("text", info["name"])
     return info
 
 
@@ -544,8 +552,16 @@ def main():
 
     # Determine dates to check
     raw_dates = CONFIG["dates"].strip()
+    raw_days = CONFIG["days"].strip()
     if raw_dates:
         date_list = [d.strip() for d in raw_dates.split(",") if d.strip()]
+    elif raw_days.isdigit() and int(raw_days) > 0:
+        base = datetime.now().replace(hour=0, minute=0, second=0,
+                                      microsecond=0)
+        date_list = [
+            (base + timedelta(days=i)).strftime("%Y%m%d")
+            for i in range(int(raw_days))
+        ]
     elif url_date:
         date_list = [url_date]
     else:
@@ -585,6 +601,19 @@ def main():
         CONFIG["time_period"],
         CONFIG["dates"],
     )
+
+    # A NOT_OPEN date makes BMS re-serve today's shows, so drop repeats.
+    deduped, seen = [], set()
+    for s in filtered:
+        key = (s.venue_code, s.session_id, s.date_code, s.time)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(s)
+    if len(deduped) != len(filtered):
+        print(f"  ↔ Deduped {len(filtered) - len(deduped)} repeated show(s)")
+    filtered = deduped
+
     print(f"  📊 {len(filtered)} showtime(s) after filters")
 
     # Build state & detect changes

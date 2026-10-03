@@ -31,11 +31,15 @@ Go to **Settings → Secrets and variables → Actions → Variables** and add:
 | Variable | Description | Example |
 |----------|-------------|---------|
 | `BMS_URL` | BookMyShow ticket page URL | `https://in.bookmyshow.com/movies/chennai/.../ET00123456` |
-| `BMS_DATES` | Dates to monitor (YYYYMMDD, comma-separated). Leave empty to auto-detect from URL. | `20260318,20260319` |
+| `BMS_DATES` | Fixed dates to monitor (YYYYMMDD, comma-separated). Leave empty to auto-detect from URL. | `20260318,20260319` |
+| `BMS_DAYS` | Rolling window: today plus the next N-1 days, computed at run time. Takes precedence over `BMS_DATES`. Leave empty to check today only. | `5` |
 | `BMS_THEATRE` | Filter by theatre name (substring match, comma-separated) | `PVR,IMAX` |
 | `BMS_TIME` | Filter by time period (comma-separated) | `evening,night` |
 
 **Time periods:** `morning` (6–12), `afternoon` (12–16), `evening` (16–19), `night` (19–24)
+
+**Note:** without `BMS_DAYS` or `BMS_DATES`, only the current day's showtimes are
+checked — the BookMyShow API returns a single date per request.
 
 ### 4. Trigger the workflow
 
@@ -50,6 +54,8 @@ uv sync --frozen
 
 export BMS_URL="https://in.bookmyshow.com/movies/chennai/.../ET00123456"
 export BMS_DATES="20260318,20260319"
+# or a rolling window of today + next 4 days:
+# export BMS_DAYS="5"
 export BMS_THEATRE="PVR"
 export BMS_TIME="evening,night"
 export RESEND_API_KEY="re_..."

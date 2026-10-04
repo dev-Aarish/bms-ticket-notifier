@@ -85,7 +85,7 @@
       "time": "02:50 PM",
       "date": "20261005",
       "cat": "PRIME PLUS ROWS",
-      "price": "200.00",
+      "price": "220.00",
       "status": "2"
     },
     "INER|96230|20261005|PRIME ROWS": {
@@ -101,6 +101,110 @@
       "time": "02:50 PM",
       "date": "20261005",
       "cat": "CLASSIC ROWS",
+      "price": "149.00",
+      "status": "3"
+    },
+    "INQM|144745|20261006|ROYAL RECLINER": {
+      "venue": "INOX: Quest Mall",
+      "time": "09:05 AM",
+      "date": "20261006",
+      "cat": "ROYAL RECLINER",
+      "price": "399.00",
+      "status": "3"
+    },
+    "MSMA|22830|20261006|RECLINER": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "03:00 PM",
+      "date": "20261006",
+      "cat": "RECLINER",
+      "price": "350.00",
+      "status": "3"
+    },
+    "MSMA|22830|20261006|CLASSIC": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "03:00 PM",
+      "date": "20261006",
+      "cat": "CLASSIC",
+      "price": "149.00",
+      "status": "3"
+    },
+    "MSMA|22830|20261006|PRIME": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "03:00 PM",
+      "date": "20261006",
+      "cat": "PRIME",
+      "price": "149.00",
+      "status": "3"
+    },
+    "INSL|113269|20261006|PRIME ROWS": {
+      "venue": "INOX: City Center, Salt Lake",
+      "time": "09:10 AM",
+      "date": "20261006",
+      "cat": "PRIME ROWS",
+      "price": "149.00",
+      "status": "3"
+    },
+    "INSL|113269|20261006|PRIME PLUS ROWS": {
+      "venue": "INOX: City Center, Salt Lake",
+      "time": "09:10 AM",
+      "date": "20261006",
+      "cat": "PRIME PLUS ROWS",
+      "price": "149.00",
+      "status": "3"
+    },
+    "INSL|113269|20261006|CLASSIC ROWS": {
+      "venue": "INOX: City Center, Salt Lake",
+      "time": "09:10 AM",
+      "date": "20261006",
+      "cat": "CLASSIC ROWS",
+      "price": "99.00",
+      "status": "3"
+    },
+    "MCKK|50375|20261006|EXECUTIVE": {
+      "venue": "Miraj Cinemas: The Terminus, New Town",
+      "time": "03:50 PM",
+      "date": "20261006",
+      "cat": "EXECUTIVE",
+      "price": "130.00",
+      "status": "3"
+    },
+    "MCKK|50375|20261006|SPECIAL": {
+      "venue": "Miraj Cinemas: The Terminus, New Town",
+      "time": "03:50 PM",
+      "date": "20261006",
+      "cat": "SPECIAL",
+      "price": "130.00",
+      "status": "3"
+    },
+    "MCKK|50375|20261006|RECLINER": {
+      "venue": "Miraj Cinemas: The Terminus, New Town",
+      "time": "03:50 PM",
+      "date": "20261006",
+      "cat": "RECLINER",
+      "price": "300.00",
+      "status": "3"
+    },
+    "INER|96246|20261006|CLASSIC ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "02:50 PM",
+      "date": "20261006",
+      "cat": "CLASSIC ROWS",
+      "price": "149.00",
+      "status": "3"
+    },
+    "INER|96246|20261006|PRIME PLUS ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "02:50 PM",
+      "date": "20261006",
+      "cat": "PRIME PLUS ROWS",
+      "price": "149.00",
+      "status": "3"
+    },
+    "INER|96246|20261006|PRIME ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "02:50 PM",
+      "date": "20261006",
+      "cat": "PRIME ROWS",
       "price": "149.00",
       "status": "3"
     },
@@ -210,9 +314,9 @@
     }
   },
   "dates": {
-    "20261005": "AVAILABLE",
+    "20261005": "BOOKABLE",
     "20261006": "AVAILABLE",
-    "20261007": "BOOKABLE",
+    "20261007": "AVAILABLE",
     "20261008": "NOT_OPEN",
     "20261009": "NOT_OPEN",
     "20261010": "NOT_OPEN",

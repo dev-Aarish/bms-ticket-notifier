@@ -1,19 +1,11 @@
 {
   "shows": {
-    "INQM|144713|20261005|ROYAL RECLINER": {
-      "venue": "INOX: Quest Mall",
-      "time": "09:05 AM",
-      "date": "20261005",
-      "cat": "ROYAL RECLINER",
-      "price": "430.00",
-      "status": "3"
-    },
     "MSMA|22824|20261005|RECLINER": {
       "venue": "PVR: Mani Square Mall, Kolkata",
       "time": "03:00 PM",
       "date": "20261005",
       "cat": "RECLINER",
-      "price": "480.00",
+      "price": "500.00",
       "status": "3"
     },
     "MSMA|22824|20261005|PRIME": {
@@ -30,30 +22,6 @@
       "date": "20261005",
       "cat": "CLASSIC",
       "price": "170.00",
-      "status": "3"
-    },
-    "INSL|113265|20261005|PRIME PLUS ROWS": {
-      "venue": "INOX: City Center, Salt Lake",
-      "time": "09:10 AM",
-      "date": "20261005",
-      "cat": "PRIME PLUS ROWS",
-      "price": "170.00",
-      "status": "3"
-    },
-    "INSL|113265|20261005|PRIME ROWS": {
-      "venue": "INOX: City Center, Salt Lake",
-      "time": "09:10 AM",
-      "date": "20261005",
-      "cat": "PRIME ROWS",
-      "price": "170.00",
-      "status": "3"
-    },
-    "INSL|113265|20261005|CLASSIC ROWS": {
-      "venue": "INOX: City Center, Salt Lake",
-      "time": "09:10 AM",
-      "date": "20261005",
-      "cat": "CLASSIC ROWS",
-      "price": "99.00",
       "status": "3"
     },
     "MCKK|50347|20261005|RECLINER": {
@@ -93,7 +61,7 @@
       "time": "02:50 PM",
       "date": "20261005",
       "cat": "PRIME ROWS",
-      "price": "190.00",
+      "price": "210.00",
       "status": "3"
     },
     "INER|96230|20261005|CLASSIC ROWS": {
@@ -120,19 +88,19 @@
       "price": "350.00",
       "status": "3"
     },
-    "MSMA|22830|20261006|CLASSIC": {
-      "venue": "PVR: Mani Square Mall, Kolkata",
-      "time": "03:00 PM",
-      "date": "20261006",
-      "cat": "CLASSIC",
-      "price": "149.00",
-      "status": "3"
-    },
     "MSMA|22830|20261006|PRIME": {
       "venue": "PVR: Mani Square Mall, Kolkata",
       "time": "03:00 PM",
       "date": "20261006",
       "cat": "PRIME",
+      "price": "149.00",
+      "status": "3"
+    },
+    "MSMA|22830|20261006|CLASSIC": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "03:00 PM",
+      "date": "20261006",
+      "cat": "CLASSIC",
       "price": "149.00",
       "status": "3"
     },
@@ -184,14 +152,6 @@
       "price": "300.00",
       "status": "3"
     },
-    "INER|96246|20261006|PRIME PLUS ROWS": {
-      "venue": "INOX: Forum Mall, Elgin Road",
-      "time": "02:50 PM",
-      "date": "20261006",
-      "cat": "PRIME PLUS ROWS",
-      "price": "149.00",
-      "status": "3"
-    },
     "INER|96246|20261006|PRIME ROWS": {
       "venue": "INOX: Forum Mall, Elgin Road",
       "time": "02:50 PM",
@@ -207,6 +167,14 @@
       "cat": "CLASSIC ROWS",
       "price": "149.00",
       "status": "3"
+    },
+    "INER|96246|20261006|PRIME PLUS ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "02:50 PM",
+      "date": "20261006",
+      "cat": "PRIME PLUS ROWS",
+      "price": "149.00",
+      "status": "2"
     },
     "INQM|144750|20261007|ROYAL RECLINER": {
       "venue": "INOX: Quest Mall",
@@ -317,7 +285,7 @@
     "20261005": "BOOKABLE",
     "20261006": "AVAILABLE",
     "20261007": "AVAILABLE",
-    "20261008": "NOT_OPEN",
+    "20261008": "AVAILABLE",
     "20261009": "NOT_OPEN",
     "20261010": "NOT_OPEN",
     "20261011": "NOT_OPEN"

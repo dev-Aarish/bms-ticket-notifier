@@ -136,19 +136,19 @@
       "price": "149.00",
       "status": "3"
     },
-    "INSL|113269|20261006|PRIME ROWS": {
-      "venue": "INOX: City Center, Salt Lake",
-      "time": "09:10 AM",
-      "date": "20261006",
-      "cat": "PRIME ROWS",
-      "price": "149.00",
-      "status": "3"
-    },
     "INSL|113269|20261006|PRIME PLUS ROWS": {
       "venue": "INOX: City Center, Salt Lake",
       "time": "09:10 AM",
       "date": "20261006",
       "cat": "PRIME PLUS ROWS",
+      "price": "149.00",
+      "status": "3"
+    },
+    "INSL|113269|20261006|PRIME ROWS": {
+      "venue": "INOX: City Center, Salt Lake",
+      "time": "09:10 AM",
+      "date": "20261006",
+      "cat": "PRIME ROWS",
       "price": "149.00",
       "status": "3"
     },
@@ -184,14 +184,6 @@
       "price": "300.00",
       "status": "3"
     },
-    "INER|96246|20261006|CLASSIC ROWS": {
-      "venue": "INOX: Forum Mall, Elgin Road",
-      "time": "02:50 PM",
-      "date": "20261006",
-      "cat": "CLASSIC ROWS",
-      "price": "149.00",
-      "status": "3"
-    },
     "INER|96246|20261006|PRIME PLUS ROWS": {
       "venue": "INOX: Forum Mall, Elgin Road",
       "time": "02:50 PM",
@@ -205,6 +197,14 @@
       "time": "02:50 PM",
       "date": "20261006",
       "cat": "PRIME ROWS",
+      "price": "149.00",
+      "status": "3"
+    },
+    "INER|96246|20261006|CLASSIC ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "02:50 PM",
+      "date": "20261006",
+      "cat": "CLASSIC ROWS",
       "price": "149.00",
       "status": "3"
     },
@@ -240,19 +240,19 @@
       "price": "170.00",
       "status": "3"
     },
-    "INSL|113275|20261007|PRIME ROWS": {
-      "venue": "INOX: City Center, Salt Lake",
-      "time": "09:10 AM",
-      "date": "20261007",
-      "cat": "PRIME ROWS",
-      "price": "170.00",
-      "status": "3"
-    },
     "INSL|113275|20261007|PRIME PLUS ROWS": {
       "venue": "INOX: City Center, Salt Lake",
       "time": "09:10 AM",
       "date": "20261007",
       "cat": "PRIME PLUS ROWS",
+      "price": "170.00",
+      "status": "3"
+    },
+    "INSL|113275|20261007|PRIME ROWS": {
+      "venue": "INOX: City Center, Salt Lake",
+      "time": "09:10 AM",
+      "date": "20261007",
+      "cat": "PRIME ROWS",
       "price": "170.00",
       "status": "3"
     },

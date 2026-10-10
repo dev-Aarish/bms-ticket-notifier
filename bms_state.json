@@ -5,8 +5,8 @@
       "time": "12:30 PM",
       "date": "20261010",
       "cat": "RECLINER",
-      "price": "590.00",
-      "status": "3"
+      "price": "630.00",
+      "status": "2"
     },
     "MSMA|22938|20261010|PRIME": {
       "venue": "PVR: Mani Square Mall, Kolkata",
@@ -37,7 +37,7 @@
       "time": "11:15 AM",
       "date": "20261010",
       "cat": "PRIME PLUS ROWS",
-      "price": "220.00",
+      "price": "240.00",
       "status": "2"
     },
     "INSL|113406|20261010|PRIME ROWS": {
@@ -45,7 +45,7 @@
       "time": "11:15 AM",
       "date": "20261010",
       "cat": "PRIME ROWS",
-      "price": "200.00",
+      "price": "220.00",
       "status": "3"
     },
     "INSL|113406|20261010|CLASSIC ROWS": {

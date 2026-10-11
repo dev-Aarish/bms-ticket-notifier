@@ -1,85 +1,5 @@
 {
   "shows": {
-    "MSMA|22950|20261011|RECLINER": {
-      "venue": "PVR: Mani Square Mall, Kolkata",
-      "time": "12:30 PM",
-      "date": "20261011",
-      "cat": "RECLINER",
-      "price": "610.00",
-      "status": "3"
-    },
-    "MSMA|22950|20261011|PRIME": {
-      "venue": "PVR: Mani Square Mall, Kolkata",
-      "time": "12:30 PM",
-      "date": "20261011",
-      "cat": "PRIME",
-      "price": "320.00",
-      "status": "3"
-    },
-    "MSMA|22950|20261011|CLASSIC": {
-      "venue": "PVR: Mani Square Mall, Kolkata",
-      "time": "12:30 PM",
-      "date": "20261011",
-      "cat": "CLASSIC",
-      "price": "260.00",
-      "status": "3"
-    },
-    "INSL|113419|20261011|EXTRA LEGROOM ROWS": {
-      "venue": "INOX: City Center, Salt Lake",
-      "time": "11:15 AM",
-      "date": "20261011",
-      "cat": "EXTRA LEGROOM ROWS",
-      "price": "240.00",
-      "status": "3"
-    },
-    "INSL|113419|20261011|PRIME PLUS ROWS": {
-      "venue": "INOX: City Center, Salt Lake",
-      "time": "11:15 AM",
-      "date": "20261011",
-      "cat": "PRIME PLUS ROWS",
-      "price": "220.00",
-      "status": "3"
-    },
-    "INSL|113419|20261011|CLASSIC ROWS": {
-      "venue": "INOX: City Center, Salt Lake",
-      "time": "11:15 AM",
-      "date": "20261011",
-      "cat": "CLASSIC ROWS",
-      "price": "200.00",
-      "status": "3"
-    },
-    "INSL|113419|20261011|PRIME ROWS": {
-      "venue": "INOX: City Center, Salt Lake",
-      "time": "11:15 AM",
-      "date": "20261011",
-      "cat": "PRIME ROWS",
-      "price": "200.00",
-      "status": "3"
-    },
-    "INER|96354|20261011|PRIME PLUS ROWS": {
-      "venue": "INOX: Forum Mall, Elgin Road",
-      "time": "03:00 PM",
-      "date": "20261011",
-      "cat": "PRIME PLUS ROWS",
-      "price": "350.00",
-      "status": "2"
-    },
-    "INER|96354|20261011|PRIME ROWS": {
-      "venue": "INOX: Forum Mall, Elgin Road",
-      "time": "03:00 PM",
-      "date": "20261011",
-      "cat": "PRIME ROWS",
-      "price": "340.00",
-      "status": "2"
-    },
-    "INER|96354|20261011|CLASSIC ROWS": {
-      "venue": "INOX: Forum Mall, Elgin Road",
-      "time": "03:00 PM",
-      "date": "20261011",
-      "cat": "CLASSIC ROWS",
-      "price": "280.00",
-      "status": "3"
-    },
     "MSMA|22973|20261012|RECLINER": {
       "venue": "PVR: Mani Square Mall, Kolkata",
       "time": "03:00 PM",
@@ -136,6 +56,14 @@
       "price": "350.00",
       "status": "3"
     },
+    "MSMA|22992|20261013|CLASSIC": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "03:00 PM",
+      "date": "20261013",
+      "cat": "CLASSIC",
+      "price": "149.00",
+      "status": "3"
+    },
     "MSMA|22992|20261013|PRIME": {
       "venue": "PVR: Mani Square Mall, Kolkata",
       "time": "03:00 PM",
@@ -144,11 +72,11 @@
       "price": "149.00",
       "status": "3"
     },
-    "MSMA|22992|20261013|CLASSIC": {
-      "venue": "PVR: Mani Square Mall, Kolkata",
-      "time": "03:00 PM",
+    "INER|96408|20261013|CLASSIC ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "03:10 PM",
       "date": "20261013",
-      "cat": "CLASSIC",
+      "cat": "CLASSIC ROWS",
       "price": "149.00",
       "status": "3"
     },
@@ -165,14 +93,6 @@
       "time": "03:10 PM",
       "date": "20261013",
       "cat": "PRIME ROWS",
-      "price": "149.00",
-      "status": "3"
-    },
-    "INER|96408|20261013|CLASSIC ROWS": {
-      "venue": "INOX: Forum Mall, Elgin Road",
-      "time": "03:10 PM",
-      "date": "20261013",
-      "cat": "CLASSIC ROWS",
       "price": "149.00",
       "status": "3"
     },
@@ -222,6 +142,86 @@
       "date": "20261014",
       "cat": "CLASSIC ROWS",
       "price": "149.00",
+      "status": "3"
+    },
+    "MSMA|22950|20261011|RECLINER": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "12:30 PM",
+      "date": "20261011",
+      "cat": "RECLINER",
+      "price": "630.00",
+      "status": "2"
+    },
+    "MSMA|22950|20261011|PRIME": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "12:30 PM",
+      "date": "20261011",
+      "cat": "PRIME",
+      "price": "320.00",
+      "status": "2"
+    },
+    "MSMA|22950|20261011|CLASSIC": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "12:30 PM",
+      "date": "20261011",
+      "cat": "CLASSIC",
+      "price": "260.00",
+      "status": "3"
+    },
+    "INSL|113419|20261011|EXTRA LEGROOM ROWS": {
+      "venue": "INOX: City Center, Salt Lake",
+      "time": "11:15 AM",
+      "date": "20261011",
+      "cat": "EXTRA LEGROOM ROWS",
+      "price": "260.00",
+      "status": "2"
+    },
+    "INSL|113419|20261011|PRIME PLUS ROWS": {
+      "venue": "INOX: City Center, Salt Lake",
+      "time": "11:15 AM",
+      "date": "20261011",
+      "cat": "PRIME PLUS ROWS",
+      "price": "220.00",
+      "status": "3"
+    },
+    "INSL|113419|20261011|PRIME ROWS": {
+      "venue": "INOX: City Center, Salt Lake",
+      "time": "11:15 AM",
+      "date": "20261011",
+      "cat": "PRIME ROWS",
+      "price": "200.00",
+      "status": "3"
+    },
+    "INSL|113419|20261011|CLASSIC ROWS": {
+      "venue": "INOX: City Center, Salt Lake",
+      "time": "11:15 AM",
+      "date": "20261011",
+      "cat": "CLASSIC ROWS",
+      "price": "200.00",
+      "status": "3"
+    },
+    "INER|96354|20261011|PRIME PLUS ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "03:00 PM",
+      "date": "20261011",
+      "cat": "PRIME PLUS ROWS",
+      "price": "350.00",
+      "status": "1"
+    },
+    "INER|96354|20261011|PRIME ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "03:00 PM",
+      "date": "20261011",
+      "cat": "PRIME ROWS",
+      "price": "340.00",
+      "status": "2"
+    },
+    "INER|96354|20261011|CLASSIC ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "03:00 PM",
+      "date": "20261011",
+      "cat": "CLASSIC ROWS",
+      "price": "280.00",
       "status": "3"
     }
   },

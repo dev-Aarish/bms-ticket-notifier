@@ -14,7 +14,7 @@
       "date": "20261011",
       "cat": "PRIME",
       "price": "320.00",
-      "status": "2"
+      "status": "3"
     },
     "MSMA|22950|20261011|CLASSIC": {
       "venue": "PVR: Mani Square Mall, Kolkata",
@@ -40,19 +40,19 @@
       "price": "220.00",
       "status": "3"
     },
-    "INSL|113419|20261011|PRIME ROWS": {
-      "venue": "INOX: City Center, Salt Lake",
-      "time": "11:15 AM",
-      "date": "20261011",
-      "cat": "PRIME ROWS",
-      "price": "200.00",
-      "status": "3"
-    },
     "INSL|113419|20261011|CLASSIC ROWS": {
       "venue": "INOX: City Center, Salt Lake",
       "time": "11:15 AM",
       "date": "20261011",
       "cat": "CLASSIC ROWS",
+      "price": "200.00",
+      "status": "3"
+    },
+    "INSL|113419|20261011|PRIME ROWS": {
+      "venue": "INOX: City Center, Salt Lake",
+      "time": "11:15 AM",
+      "date": "20261011",
+      "cat": "PRIME ROWS",
       "price": "200.00",
       "status": "3"
     },
@@ -152,14 +152,6 @@
       "price": "149.00",
       "status": "3"
     },
-    "INER|96408|20261013|CLASSIC ROWS": {
-      "venue": "INOX: Forum Mall, Elgin Road",
-      "time": "03:10 PM",
-      "date": "20261013",
-      "cat": "CLASSIC ROWS",
-      "price": "149.00",
-      "status": "3"
-    },
     "INER|96408|20261013|PRIME PLUS ROWS": {
       "venue": "INOX: Forum Mall, Elgin Road",
       "time": "03:10 PM",
@@ -173,6 +165,14 @@
       "time": "03:10 PM",
       "date": "20261013",
       "cat": "PRIME ROWS",
+      "price": "149.00",
+      "status": "3"
+    },
+    "INER|96408|20261013|CLASSIC ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "03:10 PM",
+      "date": "20261013",
+      "cat": "CLASSIC ROWS",
       "price": "149.00",
       "status": "3"
     },
@@ -226,10 +226,10 @@
     }
   },
   "dates": {
-    "20261011": "AVAILABLE",
+    "20261011": "BOOKABLE",
     "20261012": "AVAILABLE",
     "20261013": "AVAILABLE",
-    "20261014": "BOOKABLE",
+    "20261014": "AVAILABLE",
     "20261015": "NOT_OPEN",
     "20261016": "NOT_OPEN",
     "20261017": "NOT_OPEN"

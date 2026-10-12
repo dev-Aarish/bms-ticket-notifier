@@ -24,14 +24,6 @@
       "price": "149.00",
       "status": "2"
     },
-    "INER|96408|20261013|PRIME ROWS": {
-      "venue": "INOX: Forum Mall, Elgin Road",
-      "time": "03:10 PM",
-      "date": "20261013",
-      "cat": "PRIME ROWS",
-      "price": "149.00",
-      "status": "3"
-    },
     "INER|96408|20261013|CLASSIC ROWS": {
       "venue": "INOX: Forum Mall, Elgin Road",
       "time": "03:10 PM",
@@ -47,6 +39,14 @@
       "cat": "PRIME PLUS ROWS",
       "price": "149.00",
       "status": "2"
+    },
+    "INER|96408|20261013|PRIME ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "03:10 PM",
+      "date": "20261013",
+      "cat": "PRIME ROWS",
+      "price": "149.00",
+      "status": "3"
     },
     "MSMA|22998|20261014|RECLINER": {
       "venue": "PVR: Mani Square Mall, Kolkata",
@@ -95,15 +95,63 @@
       "cat": "CLASSIC ROWS",
       "price": "149.00",
       "status": "3"
+    },
+    "MSMA|23041|20261015|RECLINER": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "490.00",
+      "status": "3"
+    },
+    "MSMA|23041|20261015|PRIME": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "PRIME",
+      "price": "210.00",
+      "status": "3"
+    },
+    "MSMA|23041|20261015|CLASSIC": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "180.00",
+      "status": "3"
+    },
+    "MSMA|23043|20261015|RECLINER": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "11:25 AM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "490.00",
+      "status": "3"
+    },
+    "MSMA|23043|20261015|PRIME": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "11:25 AM",
+      "date": "20261015",
+      "cat": "PRIME",
+      "price": "210.00",
+      "status": "3"
+    },
+    "MSMA|23043|20261015|CLASSIC": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "11:25 AM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "180.00",
+      "status": "3"
     }
   },
   "dates": {
-    "20261012": "BOOKABLE",
-    "20261013": "AVAILABLE",
+    "20261013": "BOOKABLE",
     "20261014": "AVAILABLE",
     "20261015": "AVAILABLE",
     "20261016": "NOT_OPEN",
     "20261017": "NOT_OPEN",
-    "20261018": "NOT_OPEN"
+    "20261018": "NOT_OPEN",
+    "20261019": "NOT_OPEN"
   }
 }

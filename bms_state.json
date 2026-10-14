@@ -1,5 +1,53 @@
 {
   "shows": {
+    "MSMA|22998|20261014|RECLINER": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "03:00 PM",
+      "date": "20261014",
+      "cat": "RECLINER",
+      "price": "480.00",
+      "status": "3"
+    },
+    "MSMA|22998|20261014|PRIME": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "03:00 PM",
+      "date": "20261014",
+      "cat": "PRIME",
+      "price": "210.00",
+      "status": "2"
+    },
+    "MSMA|22998|20261014|CLASSIC": {
+      "venue": "PVR: Mani Square Mall, Kolkata",
+      "time": "03:00 PM",
+      "date": "20261014",
+      "cat": "CLASSIC",
+      "price": "170.00",
+      "status": "3"
+    },
+    "INER|96430|20261014|PRIME PLUS ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "03:10 PM",
+      "date": "20261014",
+      "cat": "PRIME PLUS ROWS",
+      "price": "230.00",
+      "status": "2"
+    },
+    "INER|96430|20261014|PRIME ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "03:10 PM",
+      "date": "20261014",
+      "cat": "PRIME ROWS",
+      "price": "220.00",
+      "status": "3"
+    },
+    "INER|96430|20261014|CLASSIC ROWS": {
+      "venue": "INOX: Forum Mall, Elgin Road",
+      "time": "03:10 PM",
+      "date": "20261014",
+      "cat": "CLASSIC ROWS",
+      "price": "149.00",
+      "status": "3"
+    },
     "MSMA|23041|20261015|RECLINER": {
       "venue": "PVR: Mani Square Mall, Kolkata",
       "time": "09:30 AM",
@@ -46,54 +94,6 @@
       "date": "20261015",
       "cat": "CLASSIC",
       "price": "180.00",
-      "status": "3"
-    },
-    "MSMA|22998|20261014|RECLINER": {
-      "venue": "PVR: Mani Square Mall, Kolkata",
-      "time": "03:00 PM",
-      "date": "20261014",
-      "cat": "RECLINER",
-      "price": "480.00",
-      "status": "3"
-    },
-    "MSMA|22998|20261014|PRIME": {
-      "venue": "PVR: Mani Square Mall, Kolkata",
-      "time": "03:00 PM",
-      "date": "20261014",
-      "cat": "PRIME",
-      "price": "190.00",
-      "status": "3"
-    },
-    "MSMA|22998|20261014|CLASSIC": {
-      "venue": "PVR: Mani Square Mall, Kolkata",
-      "time": "03:00 PM",
-      "date": "20261014",
-      "cat": "CLASSIC",
-      "price": "170.00",
-      "status": "3"
-    },
-    "INER|96430|20261014|PRIME PLUS ROWS": {
-      "venue": "INOX: Forum Mall, Elgin Road",
-      "time": "03:10 PM",
-      "date": "20261014",
-      "cat": "PRIME PLUS ROWS",
-      "price": "230.00",
-      "status": "3"
-    },
-    "INER|96430|20261014|PRIME ROWS": {
-      "venue": "INOX: Forum Mall, Elgin Road",
-      "time": "03:10 PM",
-      "date": "20261014",
-      "cat": "PRIME ROWS",
-      "price": "220.00",
-      "status": "3"
-    },
-    "INER|96430|20261014|CLASSIC ROWS": {
-      "venue": "INOX: Forum Mall, Elgin Road",
-      "time": "03:10 PM",
-      "date": "20261014",
-      "cat": "CLASSIC ROWS",
-      "price": "149.00",
       "status": "3"
     }
   },

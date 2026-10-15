@@ -1,30 +1,5 @@
 {
-  "shows": {
-    "MSMA|23043|20261015|RECLINER": {
-      "venue": "PVR: Mani Square Mall, Kolkata",
-      "time": "11:25 AM",
-      "date": "20261015",
-      "cat": "RECLINER",
-      "price": "490.00",
-      "status": "3"
-    },
-    "MSMA|23043|20261015|PRIME": {
-      "venue": "PVR: Mani Square Mall, Kolkata",
-      "time": "11:25 AM",
-      "date": "20261015",
-      "cat": "PRIME",
-      "price": "210.00",
-      "status": "3"
-    },
-    "MSMA|23043|20261015|CLASSIC": {
-      "venue": "PVR: Mani Square Mall, Kolkata",
-      "time": "11:25 AM",
-      "date": "20261015",
-      "cat": "CLASSIC",
-      "price": "180.00",
-      "status": "3"
-    }
-  },
+  "shows": {},
   "dates": {
     "20261015": "BOOKABLE",
     "20261016": "AVAILABLE",
